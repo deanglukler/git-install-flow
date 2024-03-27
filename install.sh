@@ -7,4 +7,4 @@ if [ -d "$DIRECTOR" ]; then
     rm -rf "$DIRECTOR"
 fi
 
-git clone git@github.com:deanglukler/karabiner.git $DIRECTOR
+git clone git@github.com:deanglukler/yes-i-use-this.git $DIRECTOR
