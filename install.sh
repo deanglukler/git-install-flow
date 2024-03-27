@@ -1,10 +1,10 @@
-DIRECTOR="$HOME/.config/fakeshit"
+DIRECTOR="$HOME/.config/karabiner"
 
-read -p "REPLACING $DIRECTOR -> Enter or Ctrl+C to cancel"
+read -p "REPLACING $DIRECTOR Are you suuure karabiner is backed up? -> Enter or Ctrl+C to cancel"
 
 if [ -d "$DIRECTOR" ]; then
     echo "Deleting $DIRECTOR"
     rm -rf "$DIRECTOR"
 fi
 
-git clone git@github.com:deanglukler/yes-i-use-this.git $DIRECTOR
+git clone git@github.com:deanglukler/karabiner.git $DIRECTOR
